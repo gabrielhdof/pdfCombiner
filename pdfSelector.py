@@ -1,7 +1,6 @@
 #! /usr/bin/python3
 # coding:utf-8
 
-
 import os, PyPDF2
 
 endereço = input("Qual o endereço do arquivo a ser cortado?")
@@ -19,33 +18,6 @@ for pagina in paginas.split(','):
 pdfOutput = open(os.path.dirname(endereço)+os.sep+"CUT"+os.path.basename(endereço), 'wb')
 pdfWriter.write(pdfOutput)
 pdfOutput.close()
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
